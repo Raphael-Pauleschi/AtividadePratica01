@@ -1,7 +1,8 @@
-import { StatusBar, StyleSheet } from "react-native/types"
+import { StatusBar, StyleSheet } from "react-native"
 
-const style = StyleSheet({
+export default StyleSheet.create({
     container:{
+      backgroundColor: 'grey',
         flex:1,
         paddingTop:StatusBar.currentHeight,
     },
@@ -9,7 +10,11 @@ const style = StyleSheet({
         backgroundColor: 'pink',
         marginHorizontal: 20,
     },
-    text:{
+    bigText:{
         fontSize: 42,
+        textAlign: "center",
+    },
+    smallText:{
+fontSize: 20,
     },
 });
