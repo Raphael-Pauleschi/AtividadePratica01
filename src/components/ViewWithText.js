@@ -5,7 +5,7 @@ import Style from './Style';
 const ViewWithText = () =>{
     return (
         <View>
-            <Text style={Style.bigText}>"Testema ?"</Text>
+              <Text style={Style.bigText}>Tinkaton</Text>
         </View>
     )
 }

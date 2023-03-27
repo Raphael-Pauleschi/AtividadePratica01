@@ -7,9 +7,9 @@ const Scroll = () =>{
     <ScrollView style={Style.scrollView}>
     <ViewWithText/>
      <Text style={Style.smallText}>
-     Nesse pull request, a disposição dos
-     elementos HTML complexificou o merge 
-     de estados estáticos nos componentes da UI.
+     Esse pokemon é bem inteligente e possue uma postura bem ousada.
+    Ele utiliza de seu martelo para lançar pedras, seu alvo são Corvinight
+    de passagem pelos céus.
  </Text>
  </ScrollView>
  </SafeAreaView>)

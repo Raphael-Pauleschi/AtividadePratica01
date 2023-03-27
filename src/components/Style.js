@@ -15,6 +15,7 @@ export default StyleSheet.create({
         textAlign: "center",
     },
     smallText:{
-fontSize: 20,
+        fontSize: 21,
+        textAlign: "justify",
     },
 });
