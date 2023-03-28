@@ -1,21 +1,26 @@
-import { StatusBar, StyleSheet } from "react-native"
+import { StatusBar, StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-    container:{
-      backgroundColor: 'grey',
-        flex:1,
-        paddingTop:StatusBar.currentHeight,
+    container: {
+        backgroundColor: 'grey',
+        flex: 1,
+        paddingTop: StatusBar.currentHeight,
     },
-    scrollView:{
+    scrollView: {
         backgroundColor: 'pink',
         marginHorizontal: 20,
     },
-    bigText:{
+    bigText: {
         fontSize: 42,
-        textAlign: "center",
+        textAlign: 'center',
     },
-    smallText:{
+    smallText: {
         fontSize: 21,
-        textAlign: "justify",
+        textAlign: 'justify',
+    },
+    smallImage: {
+        height: 150,
+        width: 150,
+        alignSelf: 'center',
     },
 });

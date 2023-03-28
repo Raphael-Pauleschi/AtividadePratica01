@@ -1,11 +1,12 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import { View, Image, Text } from 'react-native';
 import Style from './Style';
 
-const ViewWithText = () =>{
+const ViewWithText = () => {
     return (
         <View>
-              <Text style={Style.bigText}>Tinkaton</Text>
+            <Text style={Style.bigText}>Tinkaton</Text>
+            <Image style={Style.smallImage} source={require('../../assets/Tinkaton.png')} />
         </View>
     )
 }
